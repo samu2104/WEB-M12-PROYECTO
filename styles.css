@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,17 +8,15 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 32px;
 }
 
 nav ul {
@@ -37,6 +36,11 @@ nav ul li a {
     font-size: 18px;
 }
 
+.logo img {
+    max-width: 150px;
+}
+
+/* Estilos para el contenido */
 main {
     padding: 20px 0;
 }

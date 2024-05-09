@@ -18,7 +18,7 @@ body {
 
 header {
     background-color: #3057da;
-    color: #fff;
+    color: #464444;
     padding: 20px 0;
 }
 
@@ -50,7 +50,7 @@ main {
 }
 
 .hero {
-    background-color: #f4f4f4;
+    background-color: #464444;
     padding: 100px 0;
     text-align: center;
 }

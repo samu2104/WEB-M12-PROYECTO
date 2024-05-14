@@ -48,16 +48,17 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Estilos para la sección "Qui som" */
 .about-us {
     padding: 40px 0;
+    text-align: center;
 }
 
 .about-us h2 {
-    text-align: center;
+    color: #007bff;
 }
 
 .text-container {
     margin-top: 20px;
     text-align: justify;
 }
+

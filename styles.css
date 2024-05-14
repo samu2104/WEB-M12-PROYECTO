@@ -252,3 +252,25 @@ form button:hover {
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+.about {
+    padding: 40px 0;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

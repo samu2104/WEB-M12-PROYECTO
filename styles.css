@@ -21,11 +21,11 @@ nav {
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Para que el logo y la lista estén en los extremos */
 }
 
 nav .logo {
     height: 40px;
-    margin-right: 20px;
 }
 
 nav ul {
@@ -82,4 +82,3 @@ p {
     color: #555;
     text-align: center;
 }
-

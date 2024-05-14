@@ -102,8 +102,9 @@ h1, h2, h3 {
 }
 
 p {
-    color: #000000;
+    color: #000; 
     text-align: center;
+}
 }
 /* Estilos para los contenedores de 'Qui som' y 'Que fem' */
 .about {
@@ -122,9 +123,10 @@ p {
     text-align: center;
 }
 
-.about p {
+.p {
+    color: #000; /* Negro para los párrafos */
     text-align: center;
-    margin-bottom: 20px;
+}
 }
 /* Estilos para el botón */
 .btn {
@@ -165,9 +167,9 @@ p {
 }
 
 .service h3 {
-    color: #fff;
+    color: #000000;
 }
 
 .service p {
-    color: #ddd;
+    color: #000000;
 }

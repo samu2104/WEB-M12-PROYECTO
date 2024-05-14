@@ -105,7 +105,7 @@ p {
     color: #000; 
     text-align: center;
 }
-}
+
 /* Estilos para los contenedores de 'Qui som' y 'Que fem' */
 .about {
     padding: 40px 0;
@@ -127,7 +127,7 @@ p {
     color: #000; /* Negro para los párrafos */
     text-align: center;
 }
-}
+
 /* Estilos para el botón */
 .btn {
     display: block;
@@ -167,9 +167,10 @@ p {
 }
 
 .service h3 {
-    color: #000000;
+    color: #fff;
 }
 
 .service p {
-    color: #000000;
+    color: #000; /* Texto negro para los párrafos */
 }
+

@@ -1,72 +1,77 @@
 
-* {
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
     margin: 0;
     padding: 0;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-}
-
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
 }
 
-header {
-    background-color: #3057da;
-    color: #464444;
-    padding: 20px 0;
-}
 
-.logo img {
-    max-width: 200px;
+nav {
+    background-color: #007bff;
+    text-align: center;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: right;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-left: 20px;
-}
-
-nav ul li:first-child {
-    margin-left: 0;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
-main {
-    padding: 20px 0;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-.hero {
-    background-color: #464444;
-    padding: 100px 0;
+
+.about, .services {
+    padding: 40px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+.about h2, .services h2 {
     text-align: center;
 }
 
-.hero h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+.about p {
+    text-align: center;
 }
 
-.hero p {
-    font-size: 20px;
+.services ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-footer {
-    background-color: #3057da;
-    color: #fff;
-    padding: 20px 0;
+.services li {
+    margin-bottom: 10px;
+}
+
+
+h1, h2, h3 {
+    color: #007bff;
+    text-align: center;
+}
+
+p {
+    color: #555;
     text-align: center;
 }

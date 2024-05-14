@@ -74,6 +74,27 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+/* Estilos para los contenedores de 'Qui som' y 'Que fem' */
+.about {
+    padding: 40px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+}
+
 /* Estilos para los títulos y párrafos */
 h1, h2, h3 {
     color: #007bff;

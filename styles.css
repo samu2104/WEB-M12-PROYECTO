@@ -49,16 +49,29 @@ nav ul li a:hover {
 }
 
 /* Estilos para los servicios */
-.service {
-    margin-bottom: 20px;
+.services {
+    padding: 40px 0;
+    background-color: #007bff;
+    color: white;
 }
 
-.service h2 {
-    color: #007bff;
+.services .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.service p {
-    color: #555;
+.services h2 {
+    text-align: center;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 10px;
 }
 
 /* Estilos para los títulos y párrafos */
